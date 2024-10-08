@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>toDoList</title>
 </head>
 <body>
+    <h1 id="title">Lista de Tareas</h1>
     <label for="tarea">Tarea: </label>
     <input type="text" id="tarea">
-    <button onclick="agregarTarea()">Agregar</button>
+    <button onclick="agregarTarea()" class="btn-agregar">Agregar</button>
     <ol id="listaTareas"></ol>
     <p id="mostrar"></p>
 

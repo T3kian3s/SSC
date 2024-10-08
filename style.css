@@ -1,0 +1,36 @@
+body {
+    background-color: lightblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#tarea {
+    border-radius: 3px;
+    border-color: black;
+    background-color: lightblue;
+    width: 200px;
+    height: 25px;
+}
+#tarea:hover {
+    background-color: lightgray;
+}
+
+.btn-agregar {
+    padding: 4px;
+    width: 100px;
+    border-radius: 2px;
+    background-color: rgb(103, 231, 44);
+    font-weight: bold;
+}
+.btn-agregar:hover {
+    background-color: rgb(117, 238, 61);
+}
+
+button {
+    padding: 5px;
+    margin-left: 5px;
+    background-color: rgb(255, 52, 52);
+    font-weight: bold;
+}
+button:hover {
+    background-color: rgb(251, 81, 81);
+}
