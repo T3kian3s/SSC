@@ -1,0 +1,17 @@
+{
+    "name": "toDoList",
+    "short_name": "toDoList",
+    "theme_color": "#add8e6",
+    "background_color": "#add8e6",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "./",
+    "start_url": "./",
+    "icons": [
+        {
+            "src": "./img.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
